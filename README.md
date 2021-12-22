@@ -40,7 +40,12 @@ Rain100H
 
 The norain images are added to calculate PSNR and SSIM.
 
-test run 'python load_model.py'
+test:
+run 'python load_model.py'
+
+run 'python load_model_psnr.py' can calculate PSNR and SSIM.
+
+Rain12 use the model of "model_Rain100L".
 
 the predicted derained images are saved in './pred_pics/'
 
