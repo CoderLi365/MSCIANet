@@ -23,7 +23,7 @@ The pretrained model can be changed in line 6
 Put the rainy/norain image like the below format:
 
 e.g:  
-#Rain100H  
+Rain100H  
     ##-rain  
         ###-rain-001.png  
         ###-rain-002.png  
