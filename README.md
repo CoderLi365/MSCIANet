@@ -23,31 +23,29 @@ The pretrained model can be changed in line 6
 Put the rainy/norain image like the below format:
 
 e.g:  
-Rain100H  
-    -rain  
-        -rain-001.png  
-        -rain-002.png  
-        -rain-003.png  
-        -rain-004.png  
-        -rain-005.png  
-        ......  
-    -norain  
-        -norain-001.png  
-        -norain-002.png  
-        -norain-003.png  
-        -norain-004.png  
-        -norain-005.png  
-        ......  
+#Rain100H  
+    ##-rain  
+        ###-rain-001.png  
+        ###-rain-002.png  
+        ###-rain-003.png  
+        ###-rain-004.png  
+        ###-rain-005.png  
+        ###......  
+    ##-norain  
+        ###-norain-001.png  
+        ###-norain-002.png  
+        ###-norain-003.png  
+        ###-norain-004.png  
+        ###-norain-005.png  
+        ###......  
 
 The norain images are added to calculate PSNR and SSIM.  
   
 test:  
-run 'python load_model.py'  
-  
-run 'python load_model_psnr.py' can calculate PSNR and SSIM.  
-  
+run `python load_model.py`  
+
+run `python load_model_psnr.py` can calculate PSNR and SSIM.  
 Rain12 use the model of "model_Rain100L".  
-  
 the predicted derained images are saved in './pred_pics/'  
 
 
