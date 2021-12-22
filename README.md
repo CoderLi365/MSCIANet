@@ -7,12 +7,13 @@ The methods based on convolutional neural networks (CNNs) networks has made grea
 
 
 # operation system
-Ubuntu = 18.04
+Ubuntu = 18.04  
+
 # requirements
-python = 3.7.7
-tensorflow = 2.2.0
-opencv-python = 4.5.1
-numpy = 1.20.1
+python = 3.7.7  
+tensorflow = 2.2.0  
+opencv-python = 4.5.1  
+numpy = 1.20.1  
 
 
 # notice 
@@ -21,33 +22,33 @@ The pretrained model can be changed in line 6
 
 Put the rainy/norain image like the below format:
 
-e.g:
-Rain100H
-    -rain
-        -rain-001.png
-        -rain-002.png
-        -rain-003.png
-        -rain-004.png
-        -rain-005.png
-        ......
-    -norain
-        -norain-001.png
-        -norain-002.png
-        -norain-003.png
-        -norain-004.png
-        -norain-005.png
-        ......
+e.g:  
+Rain100H  
+    -rain  
+        -rain-001.png  
+        -rain-002.png  
+        -rain-003.png  
+        -rain-004.png  
+        -rain-005.png  
+        ......  
+    -norain  
+        -norain-001.png  
+        -norain-002.png  
+        -norain-003.png  
+        -norain-004.png  
+        -norain-005.png  
+        ......  
 
-The norain images are added to calculate PSNR and SSIM.
-
-test:
-run 'python load_model.py'
-
-run 'python load_model_psnr.py' can calculate PSNR and SSIM.
-
-Rain12 use the model of "model_Rain100L".
-
-the predicted derained images are saved in './pred_pics/'
+The norain images are added to calculate PSNR and SSIM.  
+  
+test:  
+run 'python load_model.py'  
+  
+run 'python load_model_psnr.py' can calculate PSNR and SSIM.  
+  
+Rain12 use the model of "model_Rain100L".  
+  
+the predicted derained images are saved in './pred_pics/'  
 
 
 
