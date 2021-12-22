@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 import tensorflow as tf
 
-model = tf.keras.models.load_model('./model_Rain100H')
+model = tf.keras.models.load_model('./model_Rain100H/')
 path = './Rain100H/rain/'
 file = os.listdir(path)
 for pic in file:

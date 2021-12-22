@@ -4,8 +4,14 @@ The methods based on convolutional neural networks (CNNs) networks has made grea
 # MSCIANet
 this is the demo of MSCIANet in Rain100H datasets
 
+# operation system
+Ubuntu = 18.04
 # requirements
-tensorflow = 2.4.1
+python = 3.7.7
+tensorflow = 2.2.0
+opencv-python = 4.5.1
+numpy = 1.20.1
+
 
 # notice 
 test run 'python load_model.py'
