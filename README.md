@@ -24,20 +24,20 @@ Put the rainy/norain image like the below format:
 
 e.g:  
 Rain100H  
-    ##-rain  
-        ###-rain-001.png  
-        ###-rain-002.png  
-        ###-rain-003.png  
-        ###-rain-004.png  
-        ###-rain-005.png  
-        ###......  
-    ##-norain  
-        ###-norain-001.png  
-        ###-norain-002.png  
-        ###-norain-003.png  
-        ###-norain-004.png  
-        ###-norain-005.png  
-        ###......  
+    #-rain  
+        ##-rain-001.png  
+        ##-rain-002.png  
+        ##-rain-003.png  
+        ##-rain-004.png  
+        ##-rain-005.png  
+        ##......  
+    #-norain  
+        ##-norain-001.png  
+        ##-norain-002.png  
+        ##-norain-003.png  
+        ##-norain-004.png  
+        ##-norain-005.png  
+        ##......  
 
 The norain images are added to calculate PSNR and SSIM.  
   
