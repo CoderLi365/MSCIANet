@@ -11,9 +11,9 @@ Ubuntu = 18.04
 
 # requirements
 python = 3.7.7  
-tensorflow = 2.2.0  
-opencv-python = 4.5.1  
-numpy = 1.20.1  
+tensorflow = 2.6.0  
+opencv-python = 4.5.5  
+numpy = 1.22.3  
 
 
 # notice 
