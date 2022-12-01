@@ -48,7 +48,8 @@ run `python load_model_psnr.py` can calculate PSNR and SSIM.
 Rain12 use the model of "model_Rain100L".  
 the predicted derained images are saved in './pred_pics/'  
 
-
+# Note
+Using different data pre-processing methods for test data may result in different results
 
 
 
