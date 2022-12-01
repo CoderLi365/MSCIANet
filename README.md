@@ -49,7 +49,7 @@ Rain12 use the model of "model_Rain100L".
 the predicted derained images are saved in './pred_pics/'  
 
 # Note
-Using different data pre-processing methods for test data may result in different results especially R1400
+Using different data pre-processing methods for test data may result in different results
 
 
 
